@@ -1,0 +1,157 @@
+/* text font*/
+body{
+    font-family: 'BioRhyme', serif;
+
+    font-family: 'Luxurious Roman', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* influecer stylles */
+
+
+.top-text{
+    display: flex;
+    margin-left: 8.33%;
+    margin-right: 74.79%;
+    margin-top: 4%;
+    
+}
+
+.titles{
+    display: flex;
+    padding: 90px;
+   
+}
+title{
+    width: 582px;
+    height: 270px;
+    margin-left: 500px;
+    margin-right: 0px;
+    
+}
+
+    
+}
+h1{
+    font-size: 80px;
+}
+.link-box{
+    width: 240px;
+    height: 50px;
+    text-decoration: none;
+    background: #E02C6D;
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 41px;
+    padding: 10px 30px 10px 30px;
+
+}
+    
+}
+.product img{
+    width: 100px;
+    height: 414px;
+    margin-right: 500px;
+    margin-top: 220px;
+
+}
+
+/* Collection Style */
+
+
+.collection-title{
+    text-align: center;
+}
+.popular-collection-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 70px;
+    
+    
+    
+
+}
+.collections{
+    border: solid (white, rgba(121, 97, 121, 0.76));
+    border-radius: 10px;
+    overflow: hidden;
+    width: 270px;
+    height: 440px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 20px;
+    box-shadow: 10px 20px 30px rgba(78, 65, 65, 0.747);
+}
+.collection img{
+    width: 270px;
+    height: 240px;
+}
+
+.collection-rating{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    font-size: 12px;
+}
+
+.fa-star.color{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: silver;
+}
+.see-more{
+    color: tomato;
+    text-align: end;
+    /* justify-content: space-between; */
+}
+
+/* footeer add */
+
+
+.footer-center{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.end-text{
+    font-size: 10px;
+}
+.icon{
+    display: inline-flex;
+    margin: 0px 16px;
+    gap:10px;
+}
+/* midea Queris */
+/* Mobile divise */
+@media  only screen and (max-width:688px) {
+    .contaniar{
+        width: 100%;
+    }
+
+    .top-text, .titles, .popular-collection-item{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        height: 70%;
+        padding: 0;
+    }
+    
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width:100%;
+    }
+    .top-text, .titles, .popular-collection-item{
+        grid-template-columns: repeat(2, 2fr) ;
+        overflow: hidden;
+        padding: 55px;
+    }
+}
+
+
